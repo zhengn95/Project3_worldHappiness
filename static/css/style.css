@@ -1,0 +1,79 @@
+/* styles.css
+
+#map-id {
+  width: 2000px;
+  height: 1000px;
+}
+
+/* Custom CSS to remove bold styling from Leaflet popup */
+/* .popup-content h3 {
+  font-weight: normal;
+}
+
+.legend {
+  line-height: 18px;
+  color: #555;
+}
+.legend i {
+  width: 18px;
+  height: 18px;
+  float: left;
+  margin-right: 8px;
+  opacity: 0.7;
+}
+
+/* Custom CSS for the map */
+body {
+  margin: 0;
+  padding: 0;
+}
+
+#map-id {
+  height: 100vh;
+} */ */
+
+/* Define styles for the popup */
+.leaflet-popup-content h3 {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.leaflet-popup-content h3:first-child {
+  margin-top: 0;
+}
+
+.leaflet-popup-content h3:last-child {
+  margin-bottom: 0;
+}
+
+/* Legend styles */
+.legend {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.3);
+}
+
+.legend-title {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.legend-color {
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
+  margin-right: 5px;
+  border: 1px solid black;
+}
+
+.legend-label {
+  white-space: nowrap;
+}

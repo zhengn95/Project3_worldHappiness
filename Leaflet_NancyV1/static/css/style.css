@@ -1,0 +1,14 @@
+/* styles.css */
+
+#map-id {
+  width: 2000px;
+  height: 1000px;
+}
+
+/* Custom CSS to remove bold styling from Leaflet popup */
+.popup-content h3 {
+  font-weight: normal;
+}
+
+
+
