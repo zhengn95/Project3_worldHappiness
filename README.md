@@ -3,7 +3,20 @@
 
 ### Story:  
 How do factors such as GDP per capita, social support, life expectancy, freedom, and generosity contribute to world happiness?
-What countries and regions are the happiest? Which countries and regions are the unhappiest? 
+What countries and regions are the happiest? Which countries and regions are the unhappiest?  
+
+### Table of Contents  
+- Data (folder)
+  -`world-happiness-report-2021.csv`
+  -`world-happiness-report-2021-with-coordinates.csv`
+- `Geocoder.ipynb`: using ETL and Geocoder (Python Library) on the `world-happiness-report-2021.csv` to extract, transform, and load a new CSV file called `world-happiness-report-2021-with-coordinates.csv` with the longitude and latitude coordinates of each country. 
+- `WorldHappiness.sql`: Creating a new database using the `world-happiness-report-2021-with-coordinates.csv` CSV file
+- Single-paged application with HTML, CSS, and Javascript
+  - Static (folder)
+  - JSON
+  - HTML
+  - CSS
+
 
 ### Requirements/Tasks
 1. ETL in Python: cleaning CSV file and creating new longitude and latitude columns using Python Library `geopy` - Nick & Iris  
