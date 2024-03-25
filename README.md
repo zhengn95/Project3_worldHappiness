@@ -6,50 +6,34 @@ How do factors such as GDP per capita, social support, life expectancy, freedom,
 What countries and regions are the happiest? Which countries and regions are the unhappiest?  
 
 ### Table of Contents  
-- Data (folder)
-  -`world-happiness-report-2021.csv`
+- Data (folder)  
+  -`world-happiness-report-2021.csv`  
   -`world-happiness-report-2021-with-coordinates.csv`
-- `Geocoder.ipynb`: using ETL and Geocoder (Python Library) on the `world-happiness-report-2021.csv` to extract, transform, and load a new CSV file called `world-happiness-report-2021-with-coordinates.csv` with the longitude and latitude coordinates of each country. 
-- `WorldHappiness.sql`: Creating a new database using the `world-happiness-report-2021-with-coordinates.csv` CSV file
-- Single-paged application with HTML, CSS, and Javascript
+- Jupyter Notebooks
+  - `Geocoder.ipynb`: Using Geocoder (Python Library) to create a new CSV file called `world-happiness-report-2021-with-coordinates.csv` with longitude and latitude columns for each country. Please see the [geopy documentation](https://geopy.readthedocs.io/en/stable/#installation) for more information.
+  - `Happinessproject.ipynb`: Python code with analysis and visualizations
+- `WorldHappiness.sql`: Creating a database for `world-happiness-report-2021-with-coordinates.csv` in Postgre
+- Interactive website using JavaScript comparing happiness scores of each country (check out this [link](https://zhengn95.github.io/Project3_worldHappiness/) or see GitHub pages to deploy our site):
   - Static (folder)
-  - JSON
-  - HTML
-  - CSS
+    - `script.js`
+    - `style.css`
+  - `index.html`
+- Happiness_Study_Presentation   
 
-
-### Requirements/Tasks
-1. ETL in Python: cleaning CSV file and creating new longitude and latitude columns using Python Library `geopy` - Nick & Iris  
-   Please see the [geopy documentation](https://geopy.readthedocs.io/en/stable/#installation) more information.
-2. Python visualizations of different factors and happiness using bar charts, line graphs, boxplots, etc.  - Nick
-2. Python visualizations comparing different factors and happiness using regression plots - Iris
-3. Interactive website using JavaScript comparing happiness scores of each country - Nancy and Tan
-   - Dropdown menu selecting each country
-   - Leaflet Marker with L.circle on map with circle marker growing with higher happiness scores
-   - Pop-up display of country name and happiness score
-4. Database (Postgre SQL, MongoDB)+ ERD - Tan
-5. Slide deck - Nick
-6. Proposal & Readme.md - Nancy
-
-### Timeline (tentative)
-**Thursday 3/14** - Class/Work on project  
-**Sunday 3/17** - Morning meeting to touch base on where everyone is at?  
-**Monday 3/18** - Final edits of project  
-**Tuesday 3/19** - Slide deck & first dry-run of presentation  
-**Thursday 3/20** - Readme and Github completion & dry-run of presentation  
-**Sunday 3/24 or Monday 3/25 (before class)**: final dry-run before presentation  
-
-Thanks! 
-
-**Dataset**  
+**Original Dataset in Kaggle**  
 [World Happiness Report](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021) 
 
 **References**  
 [Tableau](https://public.tableau.com/views/HappinessDatasetProject/Dashboard?:embed=y&:display_count=y&:showVizHome=no#!/vizhome/Happines[…]etProject/GDPvs_HS)  
 [Color Hex Codes](https://www.color-hex.com/)
 
-**Python libraries:**  
+**Python libraries:**
+pandas  
+matplotlib.pyplot  
+scipy.stats  
+pathlib  
 [geopy](https://geopy.readthedocs.io/en/stable/#installation)
 
 **Java Script Libraries:**  
 [leaflet](https://leafletjs.com/)
+[D3](https://d3js.org/)
