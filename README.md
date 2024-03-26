@@ -1,5 +1,4 @@
 # World Happiness Project Proposal  
-[Happiness Project Presentation](https://docs.google.com/presentation/d/1KXJUVdq0RAqzErKtP3b66RQ1zYB2AKOv/edit#slide=id.g2c42af9c4c2_3_0)  
 *Collaborators: Iris Michelsen, Nick Nath, Tan Palanivale, Nancy Zheng*
 
 ### Introduction:  
@@ -20,7 +19,7 @@ Our project goals aimed to answer the following questions:
     - `script.js`
     - `style.css`
   - `index.html`
-- Happiness_Study_Presentation PPT (as a pdf format)
+- Happiness Study Presentation PPT as a pdf on Github. Follow this [link](https://docs.google.com/presentation/d/1KXJUVdq0RAqzErKtP3b66RQ1zYB2AKOv/edit#slide=id.g2c42af9c4c2_3_0) to view our PowerPoint in Google Slides.
 
 ### Conclusion
 Concluding the various analyses of happiness data generally suggests that happiness is a multi-faceted outcome influenced by several factors, rather than a single dominant cause. If we were to extrapolate from the datasets and charts provided, we could consider the following factors as significant contributors to happiness:  
@@ -35,6 +34,7 @@ Freedom to Make Life Choices: The liberty to make significant choices about one�
 - Cultural Factors: Cultural norms and societal values, such as emphasis on community versus individuality, can greatly influence happiness.  
 - Environmental Quality: Access to clean air, water, and green spaces, as well as the overall quality of one’s environment, can enhance well-being.  
 
+### Resources:  
 **Original Dataset in Kaggle**  
 [World Happiness Report](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021) 
 
@@ -51,4 +51,4 @@ pandas
 
 **References**  
 [Tableau](https://public.tableau.com/views/HappinessDatasetProject/Dashboard?:embed=y&:display_count=y&:showVizHome=no#!/vizhome/Happines[…]etProject/GDPvs_HS)  
-[Color Hex Codes](https://www.color-hex.com/)
+[Color Hex Codes](https://www.color-hex.com/)  
