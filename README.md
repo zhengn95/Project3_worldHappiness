@@ -1,5 +1,6 @@
 # World Happiness Project Proposal  
-*Collaborators: Iris Michelsen, Nick Nath, Tan Palanivale, Nancy Zheng*
+*Collaborators: Iris Michelsen, Nick Nath, Tan Palanivale, Nancy Zheng*  
+![Happiness_Satellite_View](https://github.com/zhengn95/Project3_worldHappiness/blob/main/images/HappinessMap_Satellite.png)
 
 ### Introduction:  
 Our project goals aimed to answer the following questions:
