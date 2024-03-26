@@ -1,5 +1,5 @@
 # World Happiness Project Proposal  
-[Happiness Project Presentation](https://docs.google.com/presentation/d/1KXJUVdq0RAqzErKtP3b66RQ1zYB2AKOv/edit#slide=id.g2c42af9c4c2_3_0)
+[Happiness Project Presentation](https://docs.google.com/presentation/d/1KXJUVdq0RAqzErKtP3b66RQ1zYB2AKOv/edit#slide=id.g2c42af9c4c2_3_0)  
 *Collaborators: Iris Michelsen, Nick Nath, Tan Palanivale, Nancy Zheng*
 
 ### Story:  
