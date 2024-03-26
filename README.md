@@ -35,8 +35,15 @@ Freedom to Make Life Choices: The liberty to make significant choices about oneâ
 - Cultural Factors: Cultural norms and societal values, such as emphasis on community versus individuality, can greatly influence happiness.  
 - Environmental Quality: Access to clean air, water, and green spaces, as well as the overall quality of oneâ€™s environment, can enhance well-being.  
 
+### Data Ethics Consideration 
+In our ethical approach to data analysis using the World Happiness 2021 dataset we prioritized proper referencing of our sources. By citing the dataset's origin and the Gallup World Poll as our source, we ensured transparency and acknowledgment of the data's provenance. This practice not only upholds academic integrity but also facilitates the traceability of our analysis, promoting trust and accountability in our research process. Additionally, we made sure that our dataset did not include personally identifiable information. Our analysis began with a comprehensive bias audit to detect and mitigate potential biases, ensuring the integrity of our findings. 
+
+During the creation of visualizations, we further upheld data ethics by representing the data accurately and without distortion. Each visualization was crafted with careful consideration, adhering to principles of fairness and inclusivity. We avoided any misleading representations that could lead to misinterpretation or perpetuate stereotypes. Additionally, we strived to present the data in a manner that respects the dignity and rights of the individuals represented within it.
+
+By incorporating these ethical considerations into our analysis and visualization process, we aimed to not only derive meaningful insights into global well-being but also to do so with integrity and respect for the individuals whose data forms the foundation of our work. Our commitment to data ethics underscores our dedication to promoting fairness, transparency, and the responsible use of data in the pursuit of knowledge and understanding.  
+
 ### Resources:  
-**Original Dataset in Kaggle**  
+**Public Dataset in Kaggle**  
 [World Happiness Report](https://www.kaggle.com/datasets/ajaypalsinghlo/world-happiness-report-2021) 
 
 **Python Libraries:**
