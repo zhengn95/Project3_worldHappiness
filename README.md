@@ -7,7 +7,7 @@ Our project goals aimed to answer the following questions:
 - How do factors such as GDP per capita, social support, life expectancy, freedom, and generosity contribute to world happiness?
 - What countries and regions are the happiest? Which countries and regions are the unhappiest?  
 
-### Table of Contents  
+### Instruction & Contents  
 - Data (folder)  
   -`world-happiness-report-2021.csv`  
   -`world-happiness-report-2021-with-coordinates.csv`
@@ -15,12 +15,12 @@ Our project goals aimed to answer the following questions:
   - `Geocoder.ipynb`: Using Geocoder (Python Library) to create a new CSV file called `world-happiness-report-2021-with-coordinates.csv` with longitude and latitude columns for each country. Please see the [geopy documentation](https://geopy.readthedocs.io/en/stable/#installation) for more information.
   - `Happinessproject.ipynb`: Python code with analysis and visualizations
 - `WorldHappiness.sql`: Creating a database for `world-happiness-report-2021-with-coordinates.csv` in Postgre
-- Interactive website using JavaScript comparing happiness scores of each country (check out this [link](https://zhengn95.github.io/Project3_worldHappiness/) or see GitHub pages to deploy our site):
+- Interactive website using JavaScript, HTML, and CSS comparing happiness scores of each country (check out this [link](https://zhengn95.github.io/Project3_worldHappiness/) or see GitHub pages to deploy our site):
   - Static (folder)
-    - `script.js`
-    - `style.css`
-  - `index.html`
-- Happiness Study Presentation PPT as a pdf on Github. Follow this [link](https://docs.google.com/presentation/d/1KXJUVdq0RAqzErKtP3b66RQ1zYB2AKOv/edit#slide=id.g2c42af9c4c2_3_0) to view our PowerPoint in Google Slides.
+    - `script.js`: code using leaflet and d3 to add interactivity to our data and visualize our maps on our webpage
+    - `style.css`: code used to style our webpage 
+  - `index.html`: code to create the basic structure of our webpage
+- Happiness Study Presentation PPT as a pdf on Github. Follow this [link](https://docs.google.com/presentation/d/1KXJUVdq0RAqzErKtP3b66RQ1zYB2AKOv/edit#slide=id.g2c42af9c4c2_3_0) to view our PowerPoint in Google Slides. This powerpoint explains our visualization of world happiness in 2021 in a story-like format.
 
 ### Conclusion
 Concluding the various analyses of happiness data generally suggests that happiness is a multi-faceted outcome influenced by several factors, rather than a single dominant cause. If we were to extrapolate from the datasets and charts provided, we could consider the following factors as significant contributors to happiness:  
